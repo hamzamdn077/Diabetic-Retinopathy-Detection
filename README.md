@@ -10,5 +10,7 @@ DiabVision is a sophisticated tool for analyzing retinal images to detect signs 
 
 3. **binary_classification_app.py:**  
    This file contains a user interface for the DiabVision binary classification model. Users can interact with the model through this interface to input retinal images and obtain predictions regarding the presence of diabetic retinopathy.
+3. **multiclass_classification_app.py:**  
+   This file contains a user interface for the DiabVision multiclass classification model. 
 
 The DiabVision repository serves as a valuable resource for healthcare professionals and researchers working in the field of diabetic retinopathy detection and diagnosis.
