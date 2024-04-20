@@ -13,4 +13,4 @@ DiabVision is a sophisticated tool for analyzing retinal images to detect signs 
 3. **multiclass_classification_app.py:**  
    This file contains a user interface for the DiabVision multiclass classification model. 
 
-The DiabVision repository serves as a valuable resource for healthcare professionals and researchers working in the field of diabetic retinopathy detection and diagnosis.
+Diabetic retinopathy is a condition where high blood sugar levels damage the blood vessels in the retina. It progresses through stages, from mild non-proliferative retinopathy to severe proliferative retinopathy. In the early stages, blood vessels weaken and may leak, leading to blurred vision. In advanced stages, new, fragile blood vessels grow on the retina's surface, potentially causing blindness if left untreated. Monitoring blood sugar levels, regular eye exams, and prompt treatment are essential for managing diabetic retinopathy and preventing vision loss.
