@@ -1,4 +1,4 @@
-# DiabVision Repository
+# DiabVision
 
 DiabVision is a sophisticated tool for analyzing retinal images to detect signs of diabetic retinopathy. This repository hosts several key files:
 
