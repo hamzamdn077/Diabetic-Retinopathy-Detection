@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>️ Retinopathy Diabetic Detection ️</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>️ Retinopathy Diabetic Detection Binary ️</h1>
+    <div class="form-section">
+      <form id="upload_form" enctype="multipart/form-data">
+        <input type="file" id="upload" accept="image/*">
+        <button type="submit">Predict</button>
+      </form>
+    </div>
+    <div id="result_container" style="display: none;">  <h2 id="prediction_result"></h2>
+      <div class="image-container">
+        <div class="image-wrapper">
+          <h3>Uploaded Image:</h3>
+          <img id="uploaded_image" src="#" alt="Uploaded Image" class="uploaded-image">
+        </div>
+        <div class="image-wrapper">
+          <h3>Processed Image:</h3>
+          <img id="processed_image" src="#" alt="Processed Image" class="processed-image">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+  
+</html>
