@@ -1,0 +1,136 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif; /* Professional font with fallback */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  h1, h2, h3 {
+    margin: 1rem 0;
+    font-weight: normal; /* Lighter weight for headings */
+  }
+  
+  /* Container */
+  .container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Form Section */
+  .form-section {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="file"] {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  button[type="submit"] {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #3f51b5; /* Deep blue for submit button */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #283776; /* Darker blue on hover */
+  }
+  
+  /* Result Section */
+  .result-container {
+    display: none; /* Initially hide the result section */
+  }
+  
+  .result-container.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Image Container */
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .image-wrapper {
+    flex: 0 0 45%;
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 5px;
+  }
+  
+  /* Image Styles */
+  img {
+    max-width: 100%;
+  }
+  
+  .uploaded-image,
+  .processed-image {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+  }
+  
+  /* Prediction Text Styling */
+  #prediction_result {
+    font-size: 1.2rem; /* Slightly larger font size */
+    font-weight: bold; /* Bold text for emphasis */
+    margin-bottom: 1rem; /* Add some space after prediction */
+    align-items: center;
+  } 
+.image-container::after {
+  content: "";
+  position: absolute;
+  top: 70%; /* Adjust vertical position as needed */
+  left: calc(50% - 10px); /* Adjust horizontal position as needed */
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  /* Change the color here */
+  border-bottom: 20px solid #ccc; /* Adjust color and size as needed */
+  transform: translateY(-50%) rotate(90deg); /* Center vertically and rotate 90deg */
+}
+footer {
+    position: fixed; /* Fix footer to bottom of viewport */
+    bottom: 0; /* Position at the bottom */
+    left: 0; /* Align to left edge */
+    width: 100%; /* Span full width */
+    text-align: center; /* Optional: Center content horizontally */
+  }
+  
+  #linkedin a {
+    text-decoration: none; /* Remove underline from link */
+    color: #0077b5; /* Adjust color for LinkedIn blue */
+  }
+  
+  #created-by,
+  #copyright {
+    font-style: italic; /* Italicize text */
+  }
+  
+  #copyright {
+    font-size: 0.8rem; /* Slightly smaller font for copyright */
+  }
+  
