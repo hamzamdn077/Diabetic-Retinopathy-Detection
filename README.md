@@ -1,4 +1,5 @@
 # DiabVision
+![DiabVision](https://github.com/hamzamdn077/Diabetic-Retinopathy-Detection/assets/97692154/44b019dc-88da-4c25-b430-de505fd4c6b6)
 
 DiabVision is a sophisticated tool for analyzing retinal images to detect signs of diabetic retinopathy. This repository hosts several key files:
 
